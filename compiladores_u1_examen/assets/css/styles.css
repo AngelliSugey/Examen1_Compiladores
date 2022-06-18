@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+.principal{
+    max-width: 100%;
+    background-color: blueviolet;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+.seccion1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 55px 50px 0 50px;
+    column-gap: 50px;
+}
+
+.seccion1 img{
+    width: 283px;
+    height: 185px;
+    border: 12px solid #BABABA;
+}
