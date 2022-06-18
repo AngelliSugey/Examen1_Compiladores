@@ -6,13 +6,18 @@ html {
     }
 
 .principal{
-    max-width: 100%;
+    max-width: 1440px;
+    max-height: 1310px;
+    margin: auto;
+    border: 1px solid #aeadad;
+    background-color: #F5F5F5;
 }
 
 img {
     max-width: 100%;
     display: block;
 }
+
 .seccion1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -35,8 +40,20 @@ img {
 }
 
 .imagen2{
-    width: 655px;
+    width: 635px;
     height: 185px;
     border: 12px solid #BABABA;
 }
 
+.seccion3 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 55px 50px 0 50px;
+    column-gap: 50px;
+}
+
+.imagen3{
+    width: 987px;
+    height: 185px;
+    border: 12px solid #BABABA;
+}
