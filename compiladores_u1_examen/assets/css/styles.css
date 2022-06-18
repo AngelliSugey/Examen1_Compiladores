@@ -5,18 +5,23 @@ html {
     box-sizing: inherit;
     }
 
+/* Cuadro Principal*/
+
 .principal{
     max-width: 1440px;
     max-height: 1310px;
     margin: auto;
     border: 1px solid #aeadad;
     background-color: #F5F5F5;
+    padding-bottom: 55px;
 }
 
 img {
     max-width: 100%;
     display: block;
 }
+
+/* Diseño de cada fila */
 
 .seccion1 {
     display: grid;
@@ -25,13 +30,6 @@ img {
     column-gap: 50px;
 }
 
-.imagen1{
-    width: 283px;
-    height: 185px;
-    border: 12px solid #BABABA;
-}
-
-
 .seccion2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -39,17 +37,26 @@ img {
     column-gap: 50px;
 }
 
-.imagen2{
-    width: 635px;
-    height: 185px;
-    border: 12px solid #BABABA;
-}
-
 .seccion3 {
     display: grid;
     grid-template-columns: repeat(2, auto);
     margin: 55px 50px 0 50px;
     column-gap: 50px;
+}
+
+
+/* Tamaño de las imagenes*/
+
+.imagen1{
+    width: 283px;
+    height: 185px;
+    border: 12px solid #BABABA;
+}
+
+.imagen2{
+    width: 635px;
+    height: 185px;
+    border: 12px solid #BABABA;
 }
 
 .imagen3{
